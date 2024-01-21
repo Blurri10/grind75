@@ -1,9 +1,11 @@
 // Title: Best Time to Buy and Sell Stock
-// Date Submitted:
-// Time Taken To Solve: 2hrs
-// Time Complexity:
-// Space Complexity:
-// Notes:
+// Date Submitted: 2024/01/19
+// Time Taken To Solve: 1hrs
+// Time Complexity: O(n^2)
+// Space Complexity: O(n)
+// Notes: This is when I "actually" started Grind 75. I have kinda solved this problem,
+// but LeetCode won't accept it since the time limit exceeded.
+// I'll improve it on a later date.
 // Solution:
 
 /**

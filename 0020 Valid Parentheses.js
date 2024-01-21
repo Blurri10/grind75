@@ -1,9 +1,10 @@
 // Title: Valid Parentheses
-// Date Submitted:
-// Time Taken To Solve: 2hrs
-// Time Complexity:
-// Space Complexity:
-// Notes:
+// Date Submitted: 2024/01/13
+// Time Taken To Solve: 1hrs
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+// Notes: I couldn't solve it so I had to refer to a YT video that I found in the solutions
+// section. That push/pop method is genius.
 // Solution:
 
 /**
