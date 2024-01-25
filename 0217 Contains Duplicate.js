@@ -12,10 +12,28 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    for (let i=0; i<nums.length; i++) {
-        if (nums.indexOf(nums[i], i+1) !== -1) {
-            return true;
+    const counts = {};
+    for (let i of nums) {
+        if (counts[i] === undefined) {
+            counts[i] = 1;
+        }
+        else {
+            counts[i]++;
         }
     }
-    return false;
+
+    const testArray = Object.values(counts).sort();
+    if (testArray[testArray.length-1] >= 2) {
+        return true;
+    }
+    else return false;
+
+    // previous solution that wasn't accepted
+    //
+    // for (let i=0; i<nums.length; i++) {
+    //     if (nums.indexOf(nums[i], i+1) !== -1) {
+    //         return true;
+    //     }
+    // }
+    // return false;
 };
